@@ -4,20 +4,19 @@
 
 _CsvReader_
 
-public boolean readFile(String fileName)
-
--Returns value is true if file was read okay, false otherwise
-
--Stores Character objects in a Hashset member variable in this class
-
--Create a new Character object for each row data line, and then for each line read, 
-pass the information to the Character class method
-
-public Hashset<Character> getCharacterSet()
-
--Allows the retrieval of the entire HashSet of Character objects that were created
-  
--Returns a hashset of Character objects (based on the rows of data)
+readFile() and getCharacterSet() methods
 
 _Character_
   
+Character() constructor
+  
+_Pokemon_
+
+getHitPoint(), getIsLegendaryCount(), and getCharacterByFirstLetter() methods
+
+In main, a CsvReader object is created and calls its readFile() method; 
+if it returns true, the hashset of Character objects are returned. 
+
+**Part 2: JUnit Testing**
+Tests the returns of the 3 data gathering methods in the Pokemon class. 
+There is a positive and negative test for each method.
