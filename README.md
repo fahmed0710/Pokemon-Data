@@ -18,5 +18,6 @@ In main, a CsvReader object is created and calls its readFile() method;
 if it returns true, the hashset of Character objects are returned. 
 
 **Part 2: JUnit Testing**
+
 Tests the returns of the 3 data gathering methods in the Pokemon class. 
 There is a positive and negative test for each method.
